@@ -9,11 +9,20 @@ body {
 
 h1{
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 2.0em;
-  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
 }
+
+h1 span {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+
+}
+
  .contatiner {
    margin: 0 auto;
    width: 100%;
@@ -37,18 +46,18 @@ div {
   background-size: cover;
   padding-right: 200px;
   padding-top: 20px;
-  text-transform: lowercase;
+
 }
 .previewlondon {
   background-image: url("../images/london.png");
   background-size: cover;
-  padding-right: 200px;
+  padding-right: 180px;
   padding-top: 20px;
 }
 .previewmadrid {
   background-image: url("../images/madrid.jpg");
   background-size: cover;
-  padding-right: 200px;
+  padding-right: 180px;
   padding-top: 20px;
 }
 
